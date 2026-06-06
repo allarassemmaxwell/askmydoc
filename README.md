@@ -5,19 +5,38 @@
 AskMyDoc lets you upload PDF, Excel, and Word files then ask
 natural language questions about the content — powered by OpenAI.
 
+---
+
+## How it works
+
+1. **Login** — Sign in with Google, GitHub, or email
+2. **Upload** — Upload a PDF, Excel, or Word file
+3. **Ask** — Type any question about your document
+4. **Answer** — AI reads the document and answers instantly
+
+---
+
 ## Features
+
+- 🔐 Login with Google, GitHub, or Email
 - 📤 Upload PDF, XLSX, DOCX files
-- 💬 Ask questions about your documents in plain English
-- 🔐 Login with Email, Google, or GitHub
-- ⚡ Fast streaming answers
-- 📚 Manage multiple documents
+- 💬 Ask questions in plain English
+- ⚡ Streaming answers (no waiting)
+- 📚 Manage multiple documents per account
+
+---
 
 ## Tech Stack
-- **Frontend:** Next.js 14, TypeScript, Tailwind CSS
-- **Backend:** FastAPI, Python
-- **AI:** OpenAI (embeddings + GPT-4o-mini)
-- **Database:** PostgreSQL
-- **Auth:** NextAuth.js
 
-## Status
-🚧 Under active development
+| Layer | Technology |
+|---|---|
+| Frontend | Next.js 14, TypeScript, Tailwind CSS |
+| Backend | FastAPI, Python 3.11 |
+| AI | OpenAI GPT-4o-mini + Embeddings |
+| Database | PostgreSQL |
+| Auth | NextAuth.js (Google, GitHub, Email) |
+| File Storage | Cloudflare R2 |
+
+---
+
+## Project Structure
