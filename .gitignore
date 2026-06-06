@@ -1,0 +1,39 @@
+# ========================
+# SECRETS — never upload
+# ========================
+.env
+.env.local
+.env.production
+.env.development
+
+# ========================
+# Frontend (Next.js)
+# ========================
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/coverage/
+
+# ========================
+# Backend (Python)
+# ========================
+backend/__pycache__/
+backend/*.pyc
+backend/venv/
+backend/.venv/
+backend/htmlcov/
+backend/.pytest_cache/
+backend/.mypy_cache/
+
+# ========================
+# OS junk files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Editor files
+# ========================
+.vscode/
+.idea/
+*.swp
